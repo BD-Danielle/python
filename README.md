@@ -29,7 +29,7 @@ python/
 
 1. 克隆專案：
 ```bash
-git clone [你的 GitHub 倉庫網址]
+git clone git@github.com:BD-Danielle/python.git
 ```
 
 2. 選擇要使用的子專案，進入相應目錄：
