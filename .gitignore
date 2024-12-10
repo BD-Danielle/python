@@ -1,0 +1,95 @@
+# Python 虛擬環境
+**/venv/
+.env/
+.venv/
+env/
+
+# Python 編譯檔案
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE 設定檔
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 日誌檔案
+*.log
+logs/
+log/
+
+# 暫存檔案
+*.tmp
+*.temp
+.cache/
+
+# 測試覆蓋率報告
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# 打包檔案
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# 原有的排除規則...
+
+# 圖片資料夾
+image_samples/
+test_images/
+sample_data/
+images/
+photos/
+pictures/
+
+# 特定路徑的圖片資料夾
+**/image_data/
+**/test_data/
+**/raw_images/
+
+# 圖片檔案（如果有測試用圖片）
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# 原有的其他規則...
+
+# 系統檔案
+.DS_Store
+Thumbs.db 
+# 忽略所有資料夾，除了特定的程式碼資料夾
+*/
+
+# 不忽略這些特定資料夾（如果有）
+!.git/
+!src/
+!tests/
+
+# 不忽略這些檔案
+!.gitignore
+!README.md
+!requirements.txt
+!find_duplicate_images.py
+
+# 確保忽略虛擬環境
+venv/
